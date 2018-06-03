@@ -14,4 +14,5 @@ USER nobody
 LABEL url=https://github.com/miniflux/miniflux/
 LABEL version=${MINIFLUX_VERSION}
 
+
 CMD ["/usr/local/bin/miniflux"]
